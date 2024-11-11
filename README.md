@@ -30,3 +30,10 @@ create folder structure
 
 2.in env file give port and link to db
 3.npm i mongoose //to make db connection
+4.in database.js write function to connect to database using url given in env file
+run command npm i dotenv //install dotenv 
+
+env file
+-------------------
+PORT=3000;
+DATABASE_URL=mongodb://127.0.0.1:27017/mydbName
