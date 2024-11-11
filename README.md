@@ -27,3 +27,6 @@ create folder structure
 ------------------------------------------------------
 
 1.create 4 folders 1.config,2.controllers,3.models,4.routes and .env file
+
+2.in env file give port and link to db
+3.npm i mongoose //to make db connection
