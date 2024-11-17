@@ -25,3 +25,11 @@ app.use("api/v1",todoRoutes)
 app.listen(PORT,()=>{
     console.log(`Server started successfully at ${PORT}`);
 })
+//connect to db
+const dbConnect=require("./config/database");
+dbConnect();
+
+//default route
+app.get("/",(req,res)=>{
+    res.send(`<h1>ssss</h1>`)
+})
